@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');   // package required to install on command line npm init -y then : npm i inquirer
 const fs = require('fs');
-
+const x = 555;
 
 
 const promptUser = () =>
@@ -34,7 +34,6 @@ const promptUser = () =>
             type: 'input',
             name: 'testing',
             message: 'Please provide testing instructions for the project... ',
-
         },
         {
             type: 'input',
@@ -50,23 +49,31 @@ const promptUser = () =>
             type: 'input',
             name: 'testing',
             message: 'Please provide testing instructions for the project... ',
-
         },
 
 
 
 
     ]);
-const generateMd = (type) => `# ${promptUser.title} `
+
+const generateMd = (answers) => `  ${answers.title} `;
 
 
+console.log(x);
 
-const initalize = () => {
-    promptUser().then((type) => {
-        const md = generateMd(type);
-        fs.writeFileSync('./output/README.md', md);
+const init = () => {
+    promptUser().then((answers) => {
+        try {
+            const md = generateMd(answers);
+            fs.writeFileSync('./output/README.md', md);
+            console.log('Successfully wrote to read me');
+        } catch (error) {
+            console.log(error);
+
+
+        }
     });
 }
-initalize();
+init();
 
-///
+
