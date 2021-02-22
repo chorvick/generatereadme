@@ -64,7 +64,7 @@ const generateMd = (type) => ` `
 const initalize = () => {
     promptUser().then((type) => {
         const md = generateMd(type);
-        fs.writeFileSync('README.md', md);
+        fs.writeFileSync('./output/README.md', md);
     });
 }
 initalize();
