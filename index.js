@@ -57,7 +57,7 @@ const promptUser = () =>
 
 
     ]);
-const generateMd = (type) => ` `
+const generateMd = (type) => `# ${promptUser.title} `
 
 
 
