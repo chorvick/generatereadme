@@ -75,7 +75,7 @@ const promptUser = () =>
 
 const generateMd = (answers) => `  # ${answers.title} 
 
-![badge](https://img.shields.io/badge/License-${answers.license}-lightblue.svg)
+![badge](https://img.shields.io/badge/license-${answers.license}-lightblue)
 
 ## Description
 ${answers.description}
@@ -109,7 +109,7 @@ ${answers.testing}
 ${answers.question}
 
 ### Contact Information
-Please address inquiries to me on Github: [${answers.githubName}] (https://github.com/${answers.githubName})
+Please address inquiries to me on Github: [${answers.githubName}](https://github.com/${answers.githubName})
 
 Reach me by e mail at: ${answers.email}`;
 
@@ -146,3 +146,5 @@ init();
 /// apache example of url for badge https://img.shields.io/badge/License-Apache%202.0-blue.svg
 /// Boost Software License 1.0  (url for badge)
 //[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)
+
+//// found resource https://shields.io/category/license for all badges 

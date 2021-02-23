@@ -1,9 +1,9 @@
-  # Great Project 
+  # New Wonderful Project 
 
-![badge](https://img.shields.io/badge/License-Boost Software License 1.0-lightblue.svg)
+![badge](https://img.shields.io/badge/license-GNU Affero General Public License v3.0-lightblue)
 
 ## Description
-It is a great project.
+Very nice
 
 ## Table of Contents
 [Description](#description)
@@ -16,24 +16,24 @@ It is a great project.
 
 
 ## Installation
-It is very easy to install just run on the command line.
+It is very easy to install
 
 ## Usage
-Very easy to use.
+Use it every day.
 
 ## License
-This application is covered under the Boost Software License 1.0.
+This application is covered under the GNU Affero General Public License v3.0.
 
 ## Contribution 
-They are standard.
+They are very easy.
 
 ## Tests
-Please test it out. I have. 
+Test away.
 
 ## Questions
-Contact the developers right away.
+Ask anything you like.
 
 ### Contact Information
-Please address inquiries to me on Github: [HenryHill] (https://github.com/HenryHill)
+Please address inquiries to me on Github: [henryhill](https://github.com/henryhill)
 
 Reach me by e mail at: hh@aol.com
