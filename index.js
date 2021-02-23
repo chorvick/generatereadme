@@ -23,7 +23,7 @@ const promptUser = () =>
         {
             type: 'input',
             name: 'user',
-            message: 'Please enter your user story for the project... ',
+            message: 'Please describe usage of the project... ',
         },
         {
             type: 'input',
@@ -34,6 +34,11 @@ const promptUser = () =>
             type: 'input',
             name: 'testing',
             message: 'Please provide testing instructions for the project... ',
+        },
+        {
+            type: 'input',
+            name: 'question',
+            message: 'Please provide directions for questions about the project... ',
         },
         {
             type: 'input',
@@ -56,10 +61,12 @@ const generateMd = (answers) => `  # ${answers.title}
 ## Description
 ${answers.description}
 
+## Table of Contents
+
 ## Installation
 ${answers.install}
 
-## User Story
+## Usage
 ${answers.user}
 
 ## Contribution Guidelines
