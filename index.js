@@ -109,7 +109,7 @@ ${answers.testing}
 ${answers.question}
 
 ### Contact Information
-Please address inquiries to me on Github: ${answers.githubName} (https://github.com/${answers.githubName})
+Please address inquiries to me on Github: [${answers.githubName}] (https://github.com/${answers.githubName})
 
 Reach me by e mail at: ${answers.email}`;
 

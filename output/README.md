@@ -1,9 +1,9 @@
-  # New Project 
+  # Great Project 
 
-![badge](https://img.shields.io/badge/License-Mozilla Public License 2.0-lightblue.svg)
+![badge](https://img.shields.io/badge/License-Boost Software License 1.0-lightblue.svg)
 
 ## Description
-Wonderful
+It is a great project.
 
 ## Table of Contents
 [Description](#description)
@@ -16,24 +16,24 @@ Wonderful
 
 
 ## Installation
-Run it on the command line
+It is very easy to install just run on the command line.
 
 ## Usage
-It is very easy to use
+Very easy to use.
 
 ## License
-This application is covered under the Mozilla Public License 2.0.
+This application is covered under the Boost Software License 1.0.
 
 ## Contribution 
-Anyone is welcome to contribute
+They are standard.
 
 ## Tests
-I have tested it but if bugs are found please notify me.
+Please test it out. I have. 
 
 ## Questions
-Contact me on github or by e mail. 
+Contact the developers right away.
 
 ### Contact Information
-Please address inquiries to me on Github: HenryHill (https://github.com/HenryHill)
+Please address inquiries to me on Github: [HenryHill] (https://github.com/HenryHill)
 
-Reach me by e mail at: HH@aol.com
+Reach me by e mail at: hh@aol.com
