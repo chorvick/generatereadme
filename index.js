@@ -52,7 +52,7 @@ const promptUser = () =>
 
     ]);
 
-const generateMd = (answers) => `  #${answers.title} 
+const generateMd = (answers) => `  # ${answers.title} 
 ## Description
 ${answers.description}
 
@@ -69,7 +69,7 @@ ${answers.contribution}
 ${answers.testing}
 
 ### Contact Information
-Please address inquiries to me on Github: ${answers.githubName} (https://github.com/)${answers.githubName}
+Please address inquiries to me on Github: ${answers.githubName} (https://github.com/${answers.githubName})
 
 Reach me by e mail at: ${answers.email}`;
 

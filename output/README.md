@@ -1,20 +1,20 @@
-  #hey o 
+  # My big project 
 ## Description
-very good
+It is fantastic
 
 ## Installation
-you know
+Just pull it down and run it on the command line.
 
 ## User Story
-well i have to do it
+As a user I want to generate a READ.me file easily with NodeJs
 
 ## Contribution Guidelines
-just do a pull
+Please do a pull request or open an issue on github.
 
 ## Testing Directions
-none required
+Testing complete. Pleaes report any bugs found.
 
 ### Contact Information
-Please address inquiries to me on Github: henry (https://github.com/)henry
+Please address inquiries to me on Github: HenryH (https://github.com/HenryH)
 
-Reach me by e mail at: a@aol.com
+Reach me by e mail at: henry@aol.com
