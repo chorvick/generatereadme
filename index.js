@@ -85,7 +85,7 @@ ${answers.description}
 [Installation](#installation)
 [Usage](#usage)
 [License](#license)
-[Contribution Guidelines](#contribution guidelines)
+[Contribution](#contribution)
 [Tests](#tests)
 [Questions](#questions)
 
@@ -97,15 +97,15 @@ ${answers.install}
 ${answers.user}
 
 ## License
-This application is covered under the ${answers.license} license.
+This application is covered under the ${answers.license}.
 
-## Contribution Guidelines
+## Contribution 
 ${answers.contribution}
 
-## Testing Directions
+## Tests
 ${answers.testing}
 
-## Question Guidelines
+## Questions
 ${answers.question}
 
 ### Contact Information
