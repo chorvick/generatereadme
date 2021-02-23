@@ -1,20 +1,26 @@
-  # My big project 
+  # My great project 
 ## Description
-It is fantastic
+This is a project to end all others.
+
+## Table of Contents
+
 
 ## Installation
-Just pull it down and run it on the command line.
+It is very easy to install.
 
-## User Story
-As a user I want to generate a READ.me file easily with NodeJs
+## Usage
+It is even easier to use.
 
 ## Contribution Guidelines
-Please do a pull request or open an issue on github.
+That is the easy part.
 
 ## Testing Directions
-Testing complete. Pleaes report any bugs found.
+I tested it and it seems to work just fine !!
+
+## Question Guidelines
+Ask away and I will answer you.
 
 ### Contact Information
-Please address inquiries to me on Github: HenryH (https://github.com/HenryH)
+Please address inquiries to me on Github: mrcoder (https://github.com/mrcoder)
 
-Reach me by e mail at: henry@aol.com
+Reach me by e mail at: mrcode@aol.com
