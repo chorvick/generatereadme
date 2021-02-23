@@ -35,11 +35,9 @@ const promptUser = () =>
                 "MIT License",
                 "BSD 2-Clause Simplified License",
                 "Boost Software License 1.0",
-                "Creative Commons Zero v1.0 Universal",
                 "Eclipse Public License 2.0",
                 "GNU Affero General Public License v3.0",
                 "GNU General Public License v2.0",
-                "GNU Lesser General Public License v2.1",
                 "Mozilla Public License 2.0",
             ]
         },
@@ -88,6 +86,9 @@ ${answers.install}
 ## Usage
 ${answers.user}
 
+## License
+This application is covered under the ${answers.license} license.
+
 ## Contribution Guidelines
 ${answers.contribution}
 
@@ -130,18 +131,8 @@ const init = () => {
 }
 init();
 
-////  all possible licenses from github listed here
+////  licenses from github listed here
 
-//None
-//Apache License 2.0
-//GNU General Public License v3.0
-//MIT License
-//BSD 2-Clause "Simplified" License
-//BSD 3-Clause "New" or "Revised" License
-//Boost Software License 1.0
-//Creative Commons Zero v1.0 Universal
-//Eclipse Public License 2.0
-////GNU Affero General Public License v3.0
-//GNU General Public License v2.0
-//GNU Lesser General Public License v2.1
-//Mozilla Public License 2.0 
+/// apache example of url for badge https://img.shields.io/badge/License-Apache%202.0-blue.svg
+/// Boost Software License 1.0  (url for badge)
+//[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)
