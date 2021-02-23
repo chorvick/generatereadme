@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');   // package required to install on command line npm init -y then : npm i inquirer
 const fs = require('fs');
-const x = 555;
+
 
 
 const promptUser = () =>
@@ -74,10 +74,20 @@ const promptUser = () =>
     ]);
 
 const generateMd = (answers) => `  # ${answers.title} 
+
+![badge](https://img.shields.io/badge/License-${answers.license}-lightblue.svg)
+
 ## Description
 ${answers.description}
 
 ## Table of Contents
+[Description](#description)
+[Installation](#installation)
+[Usage](#usage)
+[License](#license)
+[Contribution Guidelines](#contribution guidelines)
+[Tests](#tests)
+[Questions](#questions)
 
 
 ## Installation
@@ -114,7 +124,7 @@ Reach me by e mail at: ${answers.email}`;
 
 
 
-console.log(x);
+
 
 const init = () => {
     promptUser().then((answers) => {
