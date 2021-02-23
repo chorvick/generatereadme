@@ -1,39 +1,39 @@
-  # My New Project 
+  # New Project 
 
-![badge](https://img.shields.io/badge/License-MIT License-lightblue.svg)
+![badge](https://img.shields.io/badge/License-Mozilla Public License 2.0-lightblue.svg)
 
 ## Description
-This project is the best thing I have ever coded in my life.
+Wonderful
 
 ## Table of Contents
 [Description](#description)
 [Installation](#installation)
 [Usage](#usage)
 [License](#license)
-[Contribution Guidelines](#contribution guidelines)
+[Contribution](#contribution)
 [Tests](#tests)
 [Questions](#questions)
 
 
 ## Installation
-Clone the repository and run it on the command line.
+Run it on the command line
 
 ## Usage
-This will help developers generate READ.ME files easily.
+It is very easy to use
 
 ## License
-This application is covered under the MIT License license.
+This application is covered under the Mozilla Public License 2.0.
 
-## Contribution Guidelines
-Anyone can contribut just open an issue or pull request on Github or contact me. 
+## Contribution 
+Anyone is welcome to contribute
 
-## Testing Directions
-I have tested this quite a bit. Please notify of any issues. 
+## Tests
+I have tested it but if bugs are found please notify me.
 
-## Question Guidelines
-Questions may be directed to the developer.
+## Questions
+Contact me on github or by e mail. 
 
 ### Contact Information
 Please address inquiries to me on Github: HenryHill (https://github.com/HenryHill)
 
-Reach me by e mail at: Henry@aol.com
+Reach me by e mail at: HH@aol.com
