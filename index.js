@@ -45,18 +45,43 @@ const promptUser = () =>
             name: 'email',
             message: 'Please enter your e mail address... ',
         },
-        {
-            type: 'input',
-            name: 'testing',
-            message: 'Please provide testing instructions for the project... ',
-        },
+
 
 
 
 
     ]);
 
-const generateMd = (answers) => `  ${answers.title} `;
+const generateMd = (answers) => `  #${answers.title} 
+## Description
+${answers.description}
+
+## Installation
+${answers.install}
+
+## User Story
+${answers.user}
+
+## Contribution Guidelines
+${answers.contribution}
+
+## Testing Directions
+${answers.testing}
+
+### Contact Information
+Please address inquiries to me on Github: ${answers.githubName} (https://github.com/)${answers.githubName}
+
+Reach me by e mail at: ${answers.email}`;
+
+
+
+
+
+
+
+
+
+
 
 
 console.log(x);
