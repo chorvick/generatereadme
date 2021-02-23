@@ -63,6 +63,7 @@ ${answers.description}
 
 ## Table of Contents
 
+
 ## Installation
 ${answers.install}
 
@@ -74,6 +75,9 @@ ${answers.contribution}
 
 ## Testing Directions
 ${answers.testing}
+
+## Question Guidelines
+${answers.question}
 
 ### Contact Information
 Please address inquiries to me on Github: ${answers.githubName} (https://github.com/${answers.githubName})
