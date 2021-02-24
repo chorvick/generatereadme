@@ -80,11 +80,12 @@ const promptUser = () =>
 
 const magicUrl = (badge) => {
 
+    let badgeUrl = '';
 
-    switch (answers.license) {
+    switch (badge) {
         case "Apache License 2.0":
             badgeUrl = `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)]`;
-            licenseUrl = `(https://choosealicense.com/licenses/apache-2.0/)`;
+
             break;
         case "GNU General Public License v3.0":
             badgeUrl = `[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)`;
@@ -118,19 +119,18 @@ const magicUrl = (badge) => {
             badgeUrl = `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`;
 
             break;
-        case "None":
-            badgeUrl = ``;
-            break;
         default:
             break;
     }
+
+    return badgeUrl
 };
 
 
 
 const generateMd = (answers) => `  # ${answers.title} 
 
-${magicUrl}
+${magicUrl(answers.license)}
 
 ## Description
 ${answers.description}
