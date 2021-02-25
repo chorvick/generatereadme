@@ -4,6 +4,7 @@
 
 ## Description
 This program uses node.js to dynamically generate a professional README.md file based on command line prompts.
+See video demo [HERE](https://drive.google.com/file/d/16MucYSTSXHz_zCF_bFJQ8BI6gobv8OwZ/view?usp=sharing)
 
 ## Table of Contents
 [Description](#description)
