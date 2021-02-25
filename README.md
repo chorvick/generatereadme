@@ -16,7 +16,7 @@ This program uses node.js to dynamically generate a professional README.md file 
 
 
 ## Installation
-From a gitbash command line with node.js installed type the command: node index.js
+From a gitbash command line with node.js and inquirer npm installed type the command: node index.js
 
 ## Usage
 As a busy creator you can now create high quality README.md files quickly giving you more time to create new projects.
