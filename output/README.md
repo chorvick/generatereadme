@@ -1,9 +1,9 @@
-  # New Great Project  
+  # GenerateREADME 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-This project will take the tech world by storm.
+This program uses node.js to dynamically generate a professional README.md file based on command line prompts.
 
 ## Table of Contents
 [Description](#description)
@@ -16,24 +16,24 @@ This project will take the tech world by storm.
 
 
 ## Installation
-You can download from the app store or install on a node-js command line,
+From a gitbash command line with node.js installed type the command: node index.js
 
 ## Usage
-Once you install the application you will be prompted what to do.
+As a busy creator you can now create high quality README.md files quickly giving you more time to create new projects.
 
 ## License
 This application is covered under the MIT License.
 
 ## Contribution 
-Anyone is welcome to contribute to this project.
+To contribute please open an issue or pull request on Github. You can also contact me by email.
 
 ## Tests
-While our team has tested everything very well we welcome bug reports. Notify us by e mail or on github.
+No testing should be necessary; the README.md file will be generated in the output folder.
 
 ## Questions
-Our github name is provided below. You can open an issue or pull request or just send us an e mail at the address provided.
+If any bugs or issues are found please contact me by e mail or through Github.
 
 ### Contact Information
-Please address inquiries to me on Github: [mrcoder](https://github.com/mrcoder)
+Please address inquiries to me on Github: [chorvick](https://github.com/chorvick)
 
-Reach me by e mail at: mrcoder@aol.com
+Reach me by e mail at: chorvickprocode@gmail.com

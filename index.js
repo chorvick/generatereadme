@@ -1,8 +1,8 @@
 const inquirer = require('inquirer');   // package required to install on command line npm init -y then : npm i inquirer
-const fs = require('fs');
+const fs = require('fs');  /// file system is required for this to run 
 
 
-
+//// below we prompt the user for each item with the exception of the license where they select the license (or no license) from a set of choices
 const promptUser = () =>
     inquirer.prompt([
         {
@@ -75,8 +75,9 @@ const promptUser = () =>
     ]);
 
 
-//// can put a switch statement here to deal with the url problem of the badges
-/// call it badge and be done with it.
+//// this function called magicUrl uses a switch statement to assign the proper url for the badge based on the license the user slected
+/// badgeUrl is first set to '' (nothing) then depending on the license the user selected is given the proper format to show up as
+/// a license badge in markdown
 
 const magicUrl = (badge) => {
 
@@ -126,7 +127,8 @@ const magicUrl = (badge) => {
     return badgeUrl
 };
 
-
+//// based on what the user answered during the prompts this is where the actual markdown (README.md) text is generated in proper format so 
+//it displays and functions correctly 
 
 const generateMd = (answers) => `  # ${answers.title} 
 
@@ -178,6 +180,9 @@ Reach me by e mail at: ${answers.email}`;
 
 
 
+/// function init is the function that is called on line 202 below and prompts the user to answer various
+/// questions about the file they want generated , this it uses writeFileSync to write that file to 
+// a directory called output - it will console log success or any error 
 
 
 
@@ -212,3 +217,4 @@ init();
 ///  https://gist.github.com/artem-solovev/e1602722f84835f35daef4dfb3df5500
 ///  https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
 ///  https://choosealicense.com/
+/// 
